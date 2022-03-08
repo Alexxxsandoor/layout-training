@@ -1,0 +1,33 @@
+@import url('first-up-info/first-up-info__mainstyle.css');
+
+@import url('navbar/navbar__mainstyle.css');
+
+@import url('slider/slider__mainstyle.css');
+
+@import url('topic/topic__mainstyle.css');
+
+@import url('promotion/promotion__mainstyle.css');
+
+@import url('buy-now/buy-now__mainstyle.css');
+
+@import url('brands/brands__mainstyle.css');
+
+@import url('our-strengths/our-strengths__mainstyle.css');
+
+@import url('why-we/why-we__mainstyle.css');
+
+@import url('figures/figures__mainstyle.css');
+
+@import url('work-us/work-us__mainstyle.css');
+
+@import url('last-under-info/last-under-info__mainstyle.css');
+
+@import url('big-slider/big-slider__mainstyle.css');
+
+.container {
+   max-width: 1177px;
+   margin: 0 auto;
+   margin-top: 10px;
+   display: flex;
+   flex-wrap: wrap;
+}

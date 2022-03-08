@@ -1,0 +1,47 @@
+.container__buy-now{
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.container__buy-now-blocks{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.buy-now__block, .buy-now__block1{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 253px;
+
+}
+
+.buy-now__block a, .buy-now__block1 a{
+   text-align: center;
+}
+
+.buy-now__block img, .buy-now__block1 img{
+   width: 203px;
+   height: 182px;
+   margin-bottom: 27px;
+}
+
+@media(max-width: 980px){
+   .buy-now__block1{
+      display: none;
+   }
+
+@media(max-width: 750px){
+   .container__buy-now{
+      display: none;
+   }
+
+
+}
+
+
+

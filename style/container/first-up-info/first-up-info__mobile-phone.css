@@ -1,0 +1,49 @@
+.first-up-info__mobile-phone {
+	display: flex;
+	align-self: center;
+}
+
+.first-up-info__mobile-phone__feedback {
+	background-image: url(../../../img/outline/outline.png);
+	margin-top: 10px;
+	margin-right: 17px;
+	height: 60px;
+	width: 117px;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+	
+}
+
+.first-up-info__mobile-phone__feedback__text{
+	width: 75px;
+	display: flex;
+
+}
+
+.first-up-info__mobile-phone__feedback__text a{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 12px;
+	text-decoration: dashed underline;
+   color: #6183B3;  
+}
+
+.first-up-info__mobile-phone__numbers img{
+	margin-right: 4px;
+}
+
+.first-up-info__mobile-phone__numbers h2{
+	font-weight: 500;
+	font-size: 24px;
+}
+
+.first-up-info__mobile-phone__numbers p{
+	
+	font-size: 14px;
+}
+.first-up-info__mobile-phone__numbers a{
+	font-weight: normal;
+	color: #6183B3;  
+}
+

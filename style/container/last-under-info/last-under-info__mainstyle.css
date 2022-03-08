@@ -1,0 +1,28 @@
+.container__last-under-info{
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.last-under-info__text{
+   display: flex;
+   justify-content: space-between;
+}
+
+.last-under-info__text-left, .last-under-info__text-right{
+   max-width: 550px;
+   font-size: 18px;
+   font-weight: 300;
+}
+
+.last-under-info__text a{
+   color: #FF5716;
+}
+
+@media(max-width: 750px){
+   
+   .container__last-under-info{
+      display: none;
+   }
+
+}

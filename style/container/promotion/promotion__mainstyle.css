@@ -1,0 +1,121 @@
+.container__promotion{
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+}
+
+.promotion__menu {
+   justify-content: space-evenly;
+   display: flex;
+   width: 100%;
+}
+
+.promotion__menu__block,.promotion__menu__block1,.promotion__menu__block2,.promotion__menu__block3 {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;  
+   width: 237px;
+   max-height: 410px;
+   border: 2px solid #E4E7EE;
+   border-radius: 12px;
+}
+.promotion__menu__block p,.promotion__menu__block1 p,.promotion__menu__block2 p,.promotion__menu__block3 p{
+   margin: 10px;
+}
+
+.promotion__menu__block-first-a{
+   margin: 15px 0 14px 21px;
+   font-size: 16px;
+   color: #4B76AD;
+   font-weight: 500;
+}
+
+.promotion__menu__block__timer {
+   display: flex;
+   align-items: center;
+   width: 100%;
+   height: 66px;
+   background: #DBDEE7;
+}
+
+.promotion__menu__block__timer p{
+
+   max-width: 76px;
+   margin: 0;
+   margin-left: 10px;
+
+}
+
+.promotion__menu__block__under-a{
+   text-align: center;
+   margin-top: 12px;
+   margin-bottom: 15px;
+   font-size: 13px;
+   font-weight: 400;
+   color: #4B76AD;
+}
+.promotion__menu__block__timer-clock{
+   display: flex;
+   flex-direction: column;
+}
+
+.promotion__menu__block__timer-clock-face{
+   margin-left: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+
+}
+.promotion__menu__block__timer-clock-face p{
+   display: flex;
+   justify-content: center;
+   width: 18px;
+   height: 26px;
+   margin: 1.5px;
+   border-radius: 2px;
+   font-size: 20px;
+   color: #FFFFFF;
+   background: black;
+}
+
+.promotion__menu__block__timer-clock-date{
+   display: flex;
+   justify-content: space-evenly;
+   font-size: 12px;
+   color: #A1A6AA;
+}
+
+.promotion__menu__block__indefinitely{
+   margin-left: 10%;
+   color: #15A232;
+   font-weight: 500;
+   font-size: 14px;
+}
+@media(max-width: 1440px){
+   .promotion__menu__block,.promotion__menu__block1,.promotion__menu__block2,.promotion__menu__block3{
+      width: 235px;
+     
+   }
+}
+@media(max-width: 980px){
+   .promotion__menu__block3{
+      display: none;
+     
+   }
+}
+@media(max-width: 750px){
+   .promotion__menu__block1,.promotion__menu__block2{
+      display: none; 
+   }
+   .promotion__menu__block{
+      width: 100%;
+   }
+   .promotion__menu__block__timer_p{
+      display: none ;
+   }
+   .promotion__menu__block__timer{
+      justify-content: center;
+   }
+   
+}
+

@@ -1,0 +1,42 @@
+.first-up-info__homyru {
+   display: flex;
+   flex-flow: column;
+}
+.first-up-info__homyru__region{
+   font-size: 13px;
+}
+.first-up-info__homyru a{
+   text-decoration: none;
+   border-bottom: 2.5px dashed #CCD8E8;
+   color: #6183B3;   
+}
+
+.first-up-info__homyru__logo{
+   font-weight: 100;
+   display: flex;
+   align-items: center;
+   font-size: 46px;
+   margin-top: 10px;
+   display: flex;
+   flex-flow: row nowrap;  
+}
+
+.first-up-info__homyru p{
+   font-size: 11px;
+   color: #8F9092;
+  
+}
+
+.first-up-info__homyru_background-my{
+   font-weight: 400;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: linear-gradient(105.75deg, #E2E5EC 2.53%, #FFFFFF 102.25%);
+   width: 79px;
+   height: 47px;
+   border-radius: 12px;
+   color: #FE6D34;
+}
+
+

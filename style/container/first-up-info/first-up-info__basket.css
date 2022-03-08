@@ -1,0 +1,78 @@
+.first-up-info__basket{
+	  display: flex;
+	  flex-direction: column;
+}
+
+.first-up-info__basket-account{
+	display: flex;
+	justify-content: flex-end;
+	
+	
+}
+.first-up-info__basket-account a{
+	margin-left: 23px;
+	font-size: 13px;
+	color: #5279B0;
+	text-decoration: solid underline #E1E5EE 2px;
+}
+
+.first-up-info__basket-basket{
+	display: flex;
+	position: relative;
+	align-items: center;
+	font-style: normal;
+	font-weight:bold;
+	line-height: 17px;
+	font-size: 14px;
+	line-height: 145%;
+	margin-top: 10px;
+	width: 202px;
+	height: 55px;
+	border-radius: 12px;
+	background: linear-gradient(105.75deg, #E2E5EC 2.53%, rgba(255, 255, 255, 0.55) 55.51%, #E2E5EC 102.25%);
+}
+
+.first-up-info__basket-basket img{
+	margin-left: 18px;
+	margin-right: 16px;
+}
+.first-up-info__basket-basket__text p{
+	color: #000000;
+
+}
+.first-up-info__basket-basket__text a{
+	border: #6B8DBB;
+	color: #5279B0;
+}
+.first-up-info__basket-basket__favorites-comparison{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 2px;
+}
+
+.first-up-info__basket-basket__favorites-comparison a{
+	text-decoration: dashed underline #6183B3;
+	color: #000000;
+	font-size: 12px;
+	font-weight:bold;
+}
+
+.first-up-info__basket-basket__favorites-comparison img{
+	margin-left: 10px;
+}
+first-up-info__blue-color{
+	color: #6B8DBB;
+}
+
+.first-up-info__basket-basket-magnifier{
+	display: none;
+}
+
+@media(max-width: 980px){
+	.first-up-info__basket-basket-magnifier{
+	display: block;
+	position: absolute;
+	left: -50px;
+	}
+}

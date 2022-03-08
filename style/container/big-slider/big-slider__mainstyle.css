@@ -1,0 +1,20 @@
+@import url('left-navbar.css');
+
+@import url('right-slider.css');
+
+.container__big-slider{
+   display: flex;
+   width: 100%;
+   margin-top: 25px;
+   justify-content: space-between;
+}
+
+@media(max-width: 750px){
+   
+   .container__big-slider{
+      display: none;
+   }
+
+}
+
+

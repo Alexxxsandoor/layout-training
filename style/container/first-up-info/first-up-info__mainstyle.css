@@ -1,0 +1,21 @@
+@import url('first-up-info__homyru.css');
+@import url('first-up-info__mobile-phone.css');
+@import url('first-up-info__void-search.css');
+@import url('first-up-info__basket.css');
+@import url('first-up-info_mobile-version.css');
+
+.container__first-up-info {
+   width: 1177px;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+@media(max-width: 750px){
+   .container__first-up-info{
+      display: none;
+   }
+   .container__first-up-info_mobile-version{
+      display: flex;
+   }
+}
